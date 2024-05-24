@@ -1,4 +1,4 @@
-# 🌐 Web Development Course at GDSC Abbottabad
+# 🌐 Web Development Course at GDSC Abbottabad SP24
 
 Welcome to the Web Development course hosted by GDSC Abbottabad. This README will guide you through the contents covered in each session. Dive in and happy coding! 🚀
 
