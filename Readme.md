@@ -8,8 +8,9 @@ Welcome to the Web Development course hosted by GDSC Abbottabad. This README wil
 
 ## 📋 Table of Contents
 - [📌 Session 1: Introduction to Web Development](./session-01/)
-<!-- - [📌 Session 2: Intro To HTML](https://github.com/askhan963/web-dev-course-gdsc-atd/tree/main/session2)
-- [📌 Session 3: Forms and Tables](https://github.com/askhan963/web-dev-course-gdsc-atd/tree/main/session3)
+- [📌 Session 2:  Getting Started with HTML](./session-02)
+
+<!-- - [📌 Session 3: Forms and Tables](https://github.com/askhan963/web-dev-course-gdsc-atd/tree/main/session3)
 - [📌 Session 4: Intro to CSS](https://github.com/askhan963/web-dev-course-gdsc-atd/tree/main/session-4)
 - [📌 Session 5: CSS Flex Box ](https://github.com/askhan963/web-dev-course-gdsc-atd/tree/main/session-5)
 - [📌 Session 6: Making a mini-site ](https://github.com/askhan963/web-dev-course-gdsc-atd/tree/main/session-6)
