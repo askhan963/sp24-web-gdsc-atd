@@ -1,0 +1,66 @@
+/* Unversal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    color: green;
+    text-align: center;
+    padding: 16px;
+    border: 1px solid black;
+    margin: 16px;
+}
+
+/* 
+.class
+*/
+
+.header {
+    color: red;
+    text-align: end;
+    padding: 16px;
+    border: 1px solid black;
+    margin: 16px;
+}
+
+
+#abc {
+    color: blue;
+    text-align: center;
+    padding: 16px;
+    border: 1px solid black;
+    margin: 16px;
+}
+
+
+a{
+    background-color: blue;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    margin: 16px;
+}
+/* Suedo Selector */
+a:hover{
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
