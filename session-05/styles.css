@@ -1,0 +1,160 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    padding: 24px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* animation: moveAround 5s infinite linear; */
+}
+
+.max{
+    width: 100px;
+    height: 100px;
+    padding: 24px;
+color: #fff;
+    background-color: blue;
+    border: 5px solid rgb(208, 6, 6);
+   
+}
+.min{
+    width: 100px;
+    height: 100px;
+    padding: 24px;
+    background-color: red;
+}
+
+
+nav{
+    background-color: rgba(0, 0, 0, 0.674);
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav .logo{
+    color: #fff;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    padding: 0 24px;
+}
+nav ul li a{
+    color: #fff;
+    padding: 5px;
+    border-bottom: 1px solid red;
+    transition: all 0.6s ease-in-out;
+}
+
+nav ul li a:hover{
+    border-bottom: 1px solid black;
+    font-size: 18px;
+}
+
+/* Home Section */
+
+#home{
+    background-color: rgba(0, 0, 0, 0.674);
+    padding: 24px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#home .home{
+    color: #fff;
+    padding: 24px;
+
+}
+#home button{
+    padding: 12px 16px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+#home button:hover{
+    background-color: red;
+}
+
+#about{
+    background-color: rgba(236, 6, 6, 0.674);
+    padding: 24px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* 0px - 600px */
+@media screen and (max-width: 600px) {
+    .max{
+        background-color: black;
+       width: 400px;
+    }
+    .min{
+        width: 200px;
+    }
+}
+
+/* 600px - --- */
+@media screen and (min-width: 600px) {
+    .max{
+        width: 500px;
+    }
+    .min{
+        width: 100px;
+    }
+}
+
+
+/* @keyframes moveAround {
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 50%;
+        left: 0;
+    }
+    50%{
+        top: 50%;
+        left: 50%;
+    }
+    75%{
+        top: 0;
+        left: 50%;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+} */
+
+
+
